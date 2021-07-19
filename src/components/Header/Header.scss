@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+	background: #ffffff;
+	border-bottom: 1px solid #edeff1;
+
+	input {
+		background: rgba(0, 121, 211, 0.05);
+		border: none;
+		border-radius: 36px;
+		font-size: 18px;
+		line-height: 18px;
+		outline: none;
+		height: 45px;
+		width: 400px;
+		padding: 0 100px 0 15px;
+	}
+
+	.button {
+		margin-left: -70px;
+		width: 150px;
+		position: relative;
+		z-index: 5;
+		height: 45px;
+		border-radius: 36px;
+	}
+}
